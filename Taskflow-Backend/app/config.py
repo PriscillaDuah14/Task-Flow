@@ -11,7 +11,7 @@ database_name = os.getenv('DB_NAME')
 
 print(database_username, database_password, database_name)
 
-connection_str = 'mysql+mysqlconnector://prissy:Antwiwaa14$@localhost/taskflow'
+connection_str = 'mysql+mysqlconnector://db_username:db_password@localhost/db_name'
 
 engine = create_engine(connection_str)
 
